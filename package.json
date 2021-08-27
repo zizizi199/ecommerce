@@ -5,7 +5,7 @@
   "description": "Ecommerce",
   "main": "index.js",
   "scripts": {
-    "build": "cd frontend && npm install && npm run build",
+    "build": "npm install --prefix frontend && npm run build --prefix frontend",
     "start": "nodemon --watch backend --exec node --experimental-modules backend/server.mjs"
   },
   "author": "",
