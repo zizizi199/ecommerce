@@ -5,7 +5,7 @@
   "description": "Ecommerce",
   "main": "index.js",
   "scripts": {
-    "build": "npm install --prefix frontend && npm run build --prefix frontend",
+    "build": "cd frontend && npm install && npm run build",
     "start": "nodemon --watch backend --exec node --experimental-modules backend/server.mjs"
   },
   "author": "",
@@ -20,12 +20,5 @@
     "multer": "^1.4.2",
     "nodemon": "^2.0.12"
   },
-  "devDependencies": {
-    "eslint": "^7.9.0",
-    "eslint-plugin-react": "^7.21.2"
-  },
-  "engines": {
-    "node": "12.4.0",
-    "npm": "6.9.0"
-  }
+  "devDependencies": {}
 }
