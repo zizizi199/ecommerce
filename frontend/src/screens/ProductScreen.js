@@ -64,7 +64,7 @@ export default function ProductScreen(props) {
                 alt={product.name}
               ></img>
             </div>
-            <div className="col-1">
+            <div className="col-1 product-detail">
               <ul>
                 <li>
                   <h1>{product.name}</h1>
