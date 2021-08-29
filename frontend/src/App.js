@@ -215,46 +215,46 @@ function App() {
           <Route path="/" component={HomeScreen} exact></Route>
         </main>
         <footer>
-          <div class="content">
-            <div class="top">
-              <div class="logo-details">
-                <span class="logo_name">Carousel Noris</span>
+          <div className="content">
+            <div className="top">
+              <div className="logo-details">
+                <span className="logo_name">Carousel Noris</span>
               </div>
-              <div class="media-icons">
-                <Link to="#"><i class="fa fa-facebook"></i></Link>
-                <Link to="#"><i class="fa fa-twitter"></i></Link>
-                <Link to="#"><i class="fa fa-instagram"></i></Link>
-                <Link to="#"><i class="fa fa-linkedin"></i></Link>
-                <Link to="#"><i class="fa fa-youtube"></i></Link>
+              <div className="media-icons">
+                <Link to="#"><i className="fa fa-facebook"></i></Link>
+                <Link to="#"><i className="fa fa-twitter"></i></Link>
+                <Link to="#"><i className="fa fa-instagram"></i></Link>
+                <Link to="#"><i className="fa fa-linkedin"></i></Link>
+                <Link to="#"><i className="fa fa-youtube"></i></Link>
               </div>
             </div>
-            <div class="link-boxes">
-              <ul class="box">
-                <li class="link_name">Links</li>
+            <div className="link-boxes">
+              <ul className="box">
+                <li className="link_name">Links</li>
                 <li><Link to="#">Home</Link></li>
                 <li><Link to="#">Contact</Link></li>
                 <li><Link to="#">About Us</Link></li>
                 <li><Link to="#">Get Started</Link></li>
 
               </ul>
-              <ul class="box">
-                <li class="link_name">Services</li>
+              <ul className="box">
+                <li className="link_name">Services</li>
                 <li><Link to="#">App Design</Link></li>
                 <li><Link to="#">Web Design</Link></li>
                 <li><Link to="#">Logo Design</Link></li>
                 <li><Link to="#">Banner Design</Link></li>
 
               </ul>
-              <ul class="box">
-                <li class="link_name">Other services</li>
+              <ul className="box">
+                <li className="link_name">Other services</li>
                 <li><Link to="#">SEO</Link></li>
                 <li><Link to="#">Content Marketing</Link></li>
                 <li><Link to="#">Prints</Link></li>
                 <li><Link to="#">Social Media</Link></li>
 
               </ul>
-              <ul class="box">
-                <li class="link_name">Contact</li>
+              <ul className="box">
+                <li className="link_name">Contact</li>
                 <li><Link to="#">0942282629</Link></li>
                 <li><Link to="#">noroiandcat@gmail.com</Link></li>
               </ul>
